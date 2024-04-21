@@ -1,5 +1,4 @@
 import yfinance as yf
-import pandas as pd
 import mplfinance as mpf
 
 stock_data = yf.download('AAPL', start='2023-12-25', end='2024-03-10', interval='1d')

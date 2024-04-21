@@ -37,8 +37,6 @@ fig, axlist = mpf.plot(
 
 axStock = axlist[0]
 axStock.plot(stock_data.index, stock_data['Close'], label='Kurslinie', color='#1f77b4')
-# line = axStock.lines[0]
-# line.set_color('#ff7f0e')
 
 ax = axlist[2]
 ax.plot(stock_data.index, stock_data['RSI'], label='RSI', color='lightblue')
